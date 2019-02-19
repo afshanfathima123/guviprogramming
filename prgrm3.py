@@ -1,5 +1,8 @@
-yz=raw_input
-if((yz>='a'and yz<='z')or(yz>='A'and yz<='Z')):
-     print("Alphabet")
-else:
-     print("No")
+a=str(raw_input())
+if (a.isalpha()):
+     if(a=="a" or a=="e" or a=="i" or a=="o" or a=="u"):
+           print("Vowel")
+      else:
+           print("Consonent")
+      else:
+          print("Invalid")
